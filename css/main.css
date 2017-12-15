@@ -2,8 +2,20 @@ html {
   font-family: Verdana, sans-serif;
 }
 
+.banner {
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, rgb(28, 14, 0), rgb(28, 14, 0));
+}
+
 h1 {
   font-family: Georgia, serif;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgb(28, 14, 0);
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  z-index: 1000;
 }
 
 figcaption {
